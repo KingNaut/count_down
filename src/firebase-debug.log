@@ -1,0 +1,23 @@
+[debug] [2020-11-20T10:55:56.929Z] ----------------------------------------------------------------------
+[debug] [2020-11-20T10:55:56.931Z] Command:       /home/tuannm1/.nvm/versions/node/v10.15.0/bin/node /home/tuannm1/.nvm/versions/node/v10.15.0/bin/firebase deploy
+[debug] [2020-11-20T10:55:56.931Z] CLI Version:   8.16.2
+[debug] [2020-11-20T10:55:56.931Z] Platform:      linux
+[debug] [2020-11-20T10:55:56.931Z] Node Version:  v10.15.0
+[debug] [2020-11-20T10:55:56.932Z] Time:          Fri Nov 20 2020 17:55:56 GMT+0700 (Indochina Time)
+[debug] [2020-11-20T10:55:56.932Z] ----------------------------------------------------------------------
+[debug] [2020-11-20T10:55:56.932Z] 
+[debug] [2020-11-20T10:55:56.938Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-20T10:55:56.939Z] > authorizing via signed-in user
+[debug] [2020-11-20T10:55:56.939Z] [iam] checking project countdown-c48c3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-11-20T10:55:56.942Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/countdown-c48c3:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-11-20T10:55:57.982Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 20 Nov 2020 10:55:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=908","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-20T10:55:57.986Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/countdown-c48c3  
+ 
+[debug] [2020-11-20T10:55:58.571Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 20 Nov 2020 10:55:58 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'countdown-c48c3'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-11-20T10:55:58.578Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/countdown-c48c3/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}

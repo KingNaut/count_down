@@ -193,7 +193,12 @@ html {
   [class="col-1"] {
     width: 0%;
   }
-
+  [class="col-1"] {
+    width: 0%;
+  }
+  .change-padding {
+    padding-bottom: 150px;
+  }
   [class="text"] {
     font-size: 15px;
   }
@@ -219,6 +224,9 @@ html {
   [class="digit"] {
     font-size: 40px;
   }
+  .change-padding {
+    padding-bottom: 150px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -235,6 +243,9 @@ html {
   }
   [class="digit"] {
     font-size: 30px;
+  }
+  .change-padding {
+    padding-bottom: 150px;
   }
 }
 
@@ -259,5 +270,8 @@ html {
     flex-direction: column;
     margin: 10px;
     padding: 10px;
+  }
+  .change-padding {
+    padding-bottom: 150px;
   }
 }

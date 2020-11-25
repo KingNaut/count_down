@@ -63,7 +63,7 @@ const CountDown = () => {
 
   return (
     <div className="main">
-      <div className="row">
+      <div className="row change-padding">
         <div className="col-12">
           <div className="col-1 right"></div>
           <div className="col-2 right block">

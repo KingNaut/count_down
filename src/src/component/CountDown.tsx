@@ -80,7 +80,7 @@ const CountDown = () => {
             </div>
           </div>
 
-          <div className="col-2 right block">
+          <div className="col-2 right block ">
             <div className="aside">
               <p className="digit">{minuteETA()}</p>
               <p className="text">Phút</p>

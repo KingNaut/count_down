@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:100);
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-}
-
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width: 321px) {
   /* Styles */
@@ -198,11 +193,71 @@ html {
   [class="col-1"] {
     width: 0%;
   }
+
   [class="text"] {
     font-size: 15px;
   }
 
   [class="digit"] {
     font-size: 80px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 620px) {
+  .col-1 {
+    width: 0%;
+    padding: 0px;
+  }
+  /* .col-2 {
+    width: 18%;
+  } */
+  [class="text"] {
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  [class="digit"] {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .col-1 {
+    width: 0%;
+    padding: 0px;
+  }
+  .col-2 {
+    width: 10%;
+  }
+  [class="text"] {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  [class="digit"] {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .col-1 {
+    width: 0%;
+    padding: 0px;
+  }
+  .col-2 {
+    width: 10%;
+  }
+  [class="text"] {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  [class="digit"] {
+    font-size: 30px;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
   }
 }

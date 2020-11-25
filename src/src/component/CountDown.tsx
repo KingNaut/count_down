@@ -36,7 +36,7 @@ const CountDown = () => {
     // 12/02/2021 : 1609434000000
     // const destinationDate = Number(moment(1613062800000).valueOf());
 
-    const destinationDate = Number(moment(1607706000000).valueOf());
+    const destinationDate = Number(moment(1613062800000).valueOf());
 
     // snct 12/12/2020: 1607706000000
 
@@ -63,7 +63,41 @@ const CountDown = () => {
 
   return (
     <div className="main">
-      <div className="countdown">
+      <div className="row">
+        <div className="col-12">
+          <div className="col-1 right"></div>
+          <div className="col-2 right block">
+            <div className="aside">
+              <p className="digit">{dayETA()}</p>
+              <p className="text">Ngày</p>
+            </div>
+          </div>
+
+          <div className="col-2 right block">
+            <div className="aside">
+              <p className="digit">{hourETA()}</p>
+              <p className="text">Giờ</p>
+            </div>
+          </div>
+
+          <div className="col-2 right block">
+            <div className="aside">
+              <p className="digit">{minuteETA()}</p>
+              <p className="text">Phút</p>
+            </div>
+          </div>
+
+          <div className="col-2 right block">
+            <div className="aside">
+              <p className="digit">{secondETA()}</p>
+              <p className="text">Giây</p>
+            </div>
+          </div>
+          <div className="col-1 right"></div>
+        </div>
+      </div>
+
+      {/* <div className="countdown">
         <div className="block">
           <p className="digit">{dayETA()}</p>
           <p className="text">Ngày</p>
@@ -80,7 +114,7 @@ const CountDown = () => {
           <p className="digit">{secondETA()}</p>
           <p className="text">Giây</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

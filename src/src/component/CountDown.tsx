@@ -33,7 +33,7 @@ const CountDown = () => {
   const calculateETA = () => {
     const currentDate = Number(moment().valueOf());
     // 1609434000000
-    // 12/02/2021 : 1609434000000
+    // 12/02/2021 : 1613062800000
     // const destinationDate = Number(moment(1613062800000).valueOf());
 
     const destinationDate = Number(moment(1613062800000).valueOf());
